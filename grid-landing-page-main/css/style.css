@@ -1,4 +1,96 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Blue_200: hsl(224, 100%, 95%);
+    --Blue_400: hsl(220, 100%, 64%);
+    --Blue_600: hsl(228, 100%, 60%);
+    --Blue_700: hsl(228, 99%, 58%);
+    --Black: hsl(0, 0%, 0%);
+    /* — used at 25% opacity for the menu overlay */
+}
+
+html {
+    box-sizing: border-box;
+}
+
 body {
     background: hsl(228, 99%, 58%);
     margin: 0;
+    font-family: "Inter", sans-serif;
+    color: var(--White);
 }
+
+p {
+    font-size: 17px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 2rem;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--Blue_400);
+}
+
+.brand_logo {
+    display: flex;
+    align-items: center;
+}
+
+.brand_logo::before {
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    background: var(--White);
+    display: inline-block;
+    margin-right: 6px;
+    border-radius: 50%;
+}
+
+.nav_menu {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.nav_menu a {
+    color: inherit;
+}
+
+.hero{
+border-bottom: 1px solid var(--Blue_400);
+}
+
+.hero_title {
+    font-weight: 500;
+    font-size: 2.2rem;
+    /* margin: ; */
+}
+.hero_text {
+    line-height: 1.5;
+    color: var(--Blue_200);
+    margin-bottom: 1rem;
+}
+
+.stats_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 275px;
+    border-bottom: 1px solid var(--Blue_400);
+}
+
