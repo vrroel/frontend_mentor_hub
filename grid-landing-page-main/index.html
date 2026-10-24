@@ -1,82 +1,68 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-    <title>Frontend Mentor | Grid landing page</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
+  <title>Frontend Mentor | Grid landing page</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
 
-      .attribution a {
-        color: hsl(240, 14%, 99%);
-      }
-    </style>
-  </head>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
 
-  <body>
-    <!-- Header -->
-    <header class="header">
-      <div class="container">
-        <p class="brand_logo">Bridge Collective</p>
-        <div class="header_menu_icons">
-          <img
-            class="menu_icon_open"
-            src="assets/images/icon-menu.svg"
-            alt=""
-          />
-          <img
-            class="menu_icon_close close"
-            src="./assets/images/icon-close.svg"
-            alt=""
-          />
-        </div>
+    .attribution a {
+      color: hsl(240, 14%, 99%);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <p class="brand_logo">Bridge Collective</p>
+      <div class="header_menu_icons">
+        <img class="menu_icon_open" src="assets/images/icon-menu.svg" alt="" />
+        <img class="menu_icon_close close" src="./assets/images/icon-close.svg" alt="" />
       </div>
-    </header>
-    <!-- Nav -->
-    <nav class="nav_container close container">
-      <ul class="nav_menu">
-        <li>
-          <a href="https://vrroel.github.io/frontend_mentor_hub/">About</a>
-        </li>
-        <li>
-          <a href="https://vrroel.github.io/frontend_mentor_hub/">Our Work</a>
-        </li>
-        <li>
-          <a href="https://vrroel.github.io/frontend_mentor_hub/">Parthners</a>
-        </li>
-        <li>
-          <a href="https://vrroel.github.io/frontend_mentor_hub/"
-            >Annual Report</a
-          >
-        </li>
-        <li>
-          <a href="https://vrroel.github.io/frontend_mentor_hub/">Donate</a>
-        </li>
-      </ul>
-    </nav>
+    </div>
+  </header>
+  <!-- Nav -->
+  <nav class="nav_container close container">
+    <ul class="nav_menu">
+      <li>
+        <a href="https://vrroel.github.io/frontend_mentor_hub/">About</a>
+      </li>
+      <li>
+        <a href="https://vrroel.github.io/frontend_mentor_hub/">Our Work</a>
+      </li>
+      <li>
+        <a href="https://vrroel.github.io/frontend_mentor_hub/">Parthners</a>
+      </li>
+      <li>
+        <a href="https://vrroel.github.io/frontend_mentor_hub/">Annual Report</a>
+      </li>
+      <li>
+        <a href="https://vrroel.github.io/frontend_mentor_hub/">Donate</a>
+      </li>
+    </ul>
+  </nav>
 
+  <div class="grid-container">
     <!-- Hero -->
     <section class="hero to_overlay">
       <div class="container">
@@ -93,11 +79,7 @@
       <ul class="stats">
         <li class="stats_item container">
           <div class="stat_value_wrapper">
-            <img
-              class="stat_icon"
-              src="./assets/images/icon-sparkle.svg"
-              alt=""
-            />
+            <img class="stat_icon" src="./assets/images/icon-sparkle.svg" alt="" />
             <span class="stat_number">2.4M</span>
           </div>
           <div class="stat_details">
@@ -119,11 +101,7 @@
 
         <li class="stats_item container">
           <div class="stat_value_wrapper">
-            <img
-              class="stat_icon"
-              src="./assets/images/icon-arrow-right.svg"
-              alt=""
-            />
+            <img class="stat_icon" src="./assets/images/icon-arrow-right.svg" alt="" />
             <span class="stat_number">38K</span>
           </div>
           <div class="stat_details">
@@ -134,11 +112,7 @@
 
         <li class="stats_item container">
           <div class="stat_value_wrapper">
-            <img
-              class="stat_icon"
-              src="./assets/images/icon-trending-up.svg"
-              alt=""
-            />
+            <img class="stat_icon" src="./assets/images/icon-trending-up.svg" alt="" />
             <span class="stat_number">3.1×</span>
           </div>
           <div class="stat_details">
@@ -148,29 +122,29 @@
         </li>
       </ul>
     </main>
+  </div>
 
-    <!-- Footer -->
-    <footer class="footer container to_overlay">
-      <p class="footer_info">© 2026 Bridge Collective</p>
-      <p class="footer_info">Registered charity 12345678</p>
-    </footer>
+  <!-- Footer -->
+  <footer class="footer container to_overlay">
+    <p class="footer_info">© 2026 Bridge Collective</p>
+    <p class="footer_info">Registered charity 12345678</p>
+  </footer>
 
-    <!-- Menu panel — hidden until the hamburger is activated -->
-    <!-- About
+  <!-- Menu panel — hidden until the hamburger is activated -->
+  <!-- About
   Our Work
   Partners
   Annual Report
   Donate -->
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
-      Coded by
-      <a href="https://vrroel.github.io/frontend_mentor_hub/"
-        >Alexis Villarroel</a
-      >.
-    </div>
-  </body>
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by
+    <a href="https://vrroel.github.io/frontend_mentor_hub/">Alexis Villarroel</a>.
+  </div>
+</body>
 
-  <script src="./script.js"></script>
+<script src="./script.js"></script>
+
 </html>
